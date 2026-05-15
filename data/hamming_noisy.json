@@ -1,9 +1,0 @@
-{
-  "bit_length": 15390221,
-  "padding_bits": 3,
-  "bit_error_probability": 0.03,
-  "flipped_bits": 460819,
-  "corrupted_blocks": 421734,
-  "blocks_with_one_error": 384540,
-  "blocks_with_multiple_errors": 37194
-}
