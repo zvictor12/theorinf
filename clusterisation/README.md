@@ -1,7 +1,5 @@
 # Clusterisation
 
-Ноутбук: `kmeans.ipynb`.
-
 Что делает:
 
 - загружает датасет банковских транзакций;
@@ -13,14 +11,17 @@
 - применяет k-means, реализованный вручную;
 - выводит средние значения и распределения признаков по кластерам.
 
-## Запуск в Kaggle
+## Локальный запуск
 
-Ноутбук рассчитан на запуск в Kaggle.
+Из корня проекта:
 
-В ноутбуке используется путь:
-
-```text
-/kaggle/input/datasets/zvictor12/bank-transactions/bank_transactions.csv
+```bash
+uv sync
+uv run jupyter notebook clusterisation/kmeans.ipynb
 ```
 
-Если в Kaggle датасет подключен под другим именем, нужно поменять путь в первой ячейке загрузки данных.
+CSV должен лежать в:
+
+```text
+data/bank_transactions.csv
+```

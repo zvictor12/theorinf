@@ -1,0 +1,6 @@
+{
+  "bit_length": 15390221,
+  "padding_bits": 3,
+  "source": "../data/huffman_block_1.bin",
+  "hamming_padding": 3
+}
